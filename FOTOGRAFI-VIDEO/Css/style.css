@@ -1,0 +1,177 @@
+            html {
+                font-size: 62.5%;
+                /**Reset para Rem - 62.5% = 10px de 16px**/
+            }
+            
+            body {
+                font-family: 'Lobster', cursive;
+                font-size: 1.6rem;
+                line-height: 2rem;
+            }
+            /*Globales*/
+            
+            .contenedor {
+                max-width: 120rem;
+                /** = 1200px**/
+                margin: 0 auto;
+            }
+            
+            h1 {
+                font-size: 3.8rem;
+            }
+            
+            h2 {
+                font-size: 3.4rem;
+            }
+            
+            h3 {
+                font-size: 3rem;
+            }
+            
+            h4 {
+                font-size: 2.6rem;
+            }
+            /** Utilidades**/
+            
+            .seccion {
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            /*header*/
+            
+            .site-header.inicio {
+                background-position: center center;
+                background-size: cover;
+                height: 100vh;
+                min-height: 60rem;
+                line-height: 1rem;
+            }
+            
+            .contenido-header {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+            
+            .contenido-header h1 {
+                margin: 2rem;
+                font-size: 2.5rem;
+                color: white;
+                padding-bottom: 1rem;
+                max-width: 50rem;
+                line-height: 1.4rem;
+                margin: 2rem;
+            }
+            
+            .contenido-header p {
+                font-size: 1.8rem;
+                color: white;
+            }
+            
+            .barra {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 3rem;
+            }
+            
+            .navegacion li {
+                text-decoration: none;
+                font-size: 2.3rem;
+                margin-right: 1.8rem;
+                font-family: 'Lobster', cursive;
+                vertical-align: 1.5rem;
+            }
+            
+            .navegacion a {
+                color: white;
+                text-decoration: none;
+                font-size: 2.3rem;
+                margin-right: 1.8rem;
+                font-family: 'Lobster', cursive;
+                vertical-align: 1.5rem;
+            }
+            
+            .navegacion a:hover {
+                color: #71b100
+            }
+            
+            .navegacion a:last-of-type {
+                margin: 0;
+            }
+            
+            .lateral h2 {
+                color: lawngreen;
+                display: flex;
+                flex-direction: column;
+                flex-direction: row-reverse;
+            }
+            
+            .site-footer a:hover {
+                opacity: .2;
+            }
+            
+            .site-footer {
+                margin: 2.5rem;
+            }
+            
+            .copyright {
+                margin: 1rem;
+                color: #fcfcfc;
+            }
+            /**iconos nosotros**/
+            
+            .encabezado-nosotros {
+                font-weight: 300;
+                font-family: 'Lobster', cursive;
+            }
+            
+            .nosotros-mision-vision {
+                display: grid;
+                justify-content: space-between;
+                font-size: 1.5rem;
+                flex-basis: calc(33.3% - 1rem);
+                text-align: justify;
+                margin: 3rem;
+            }
+            
+            .contenedor {
+                max-width: 1200px;
+                width: 95%;
+                margin: 0 auto;
+            }
+            
+            .entrada-blog a {
+                display: inline-block;
+                background-color: #2196F3;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            
+            @media (min-width:468px) {
+                .container {
+                    display: grid;
+                    grid-template-columns: 3fr repeat(2, 1fr);
+                    column-gap: 1.5rem;
+                    width: 10rem;
+                    height: 10rem;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    top: 20px;
+                    row-gap: 1rem;
+                }
+                .img {
+                    border-radius: 1rem;
+                    border-collapse: inherit;
+                }
+            }
+            
+            .img:hover {
+                opacity: .2;
+            }
